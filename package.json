@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typegen": "echo 'Skipping typegen as schema.json is not available"
+    "typegen": "echo 'Skipping typegen as schema.json is not available'"
   },
   "dependencies": {
     "@sanity/client": "^6.27.2",
