@@ -2,13 +2,11 @@
   "name": "nextjs-app",
   "private": true,
   "scripts": {
-    "predev": "npm run typegen",
     "dev": "next --turbo",
-    "prebuild": "npm run typegen",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typegen": "sanity typegen generate"
+    "check-types": "tsc --noEmit"
   },
   "dependencies": {
     "@sanity/client": "^6.27.2",
