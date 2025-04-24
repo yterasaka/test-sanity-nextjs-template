@@ -27,6 +27,8 @@
     "styled-components": "^6.1.13"
   },
   "devDependencies": {
+    "@stackbit/cms-sanity": "^0.2.90",
+    "@stackbit/types": "^2.1.14",
     "@types/node": "^20.17.30",
     "@types/react": "^18.3.18",
     "@types/react-dom": "^18.3.5",
